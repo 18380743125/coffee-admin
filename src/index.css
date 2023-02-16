@@ -1,0 +1,23 @@
+.el-message {
+  position: absolute;
+  left: 50%;
+  transform: translate(-25%,0);
+  display: flex;
+  padding: 0 20px 0 20px;
+  height: 46px;
+  width: 300px;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.el-message__icon {
+  margin-right: 10px;
+}
+.el-message.el-message--error {
+  background-color: #fef0f0 !important;
+  color: #f66c6c !important;
+}
+.el-message.el-message--success {
+  background-color: #f0f9eb;
+  color: #67c23a;
+}
